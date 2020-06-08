@@ -24,3 +24,4 @@ if __name__ == "__main__":
 
     # Add new comment
     # Add new content
+    # Add new function
