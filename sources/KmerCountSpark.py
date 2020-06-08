@@ -7,7 +7,7 @@ if __name__ == "__main__":
     kmers = []
     #Get time
     start = time.time()
-    
+    #Add new Feature
     inputData = sc.textFile("./ecoli.fa/ecoli.fa").collect()
     for line in inputData:
         genome += line
