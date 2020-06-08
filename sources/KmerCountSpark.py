@@ -5,7 +5,7 @@ if __name__ == "__main__":
     sc = SparkContext("local", "Kmer Counting")
     genome = ""
     kmers = []
-
+    #Get time
     start = time.time()
     
     inputData = sc.textFile("./ecoli.fa/ecoli.fa").collect()
@@ -18,6 +18,6 @@ if __name__ == "__main__":
     kmerCount.saveAsTextFile('./output/')
 
     end = time.time()
-    #add new comment
+    
     with open('./output/time.txt', 'w') as f:
         f.write(str(end-start))
