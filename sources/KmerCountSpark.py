@@ -28,3 +28,4 @@ if __name__ == "__main__":
     # Fix bug in main file
     # Fix bug in new func
     # Resolve bug in new feature
+    # Resolve view 
