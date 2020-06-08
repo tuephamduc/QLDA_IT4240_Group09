@@ -26,3 +26,4 @@ if __name__ == "__main__":
     # Add new content
     # Add new function
     # Fix bug in main file
+    # Fix bug in new func
