@@ -18,6 +18,6 @@ if __name__ == "__main__":
     kmerCount.saveAsTextFile('./output/')
 
     end = time.time()
-
+    #add new comment
     with open('./output/time.txt', 'w') as f:
         f.write(str(end-start))
