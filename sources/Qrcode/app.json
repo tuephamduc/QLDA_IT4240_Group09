@@ -1,11 +1,5 @@
 {
-  "expo": {
-    "name": "expo1",
-    "slug": "expo1",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
+  
     ],
     "version": "1.0.0",
     "orientation": "portrait",
