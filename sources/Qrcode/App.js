@@ -1,9 +1,3 @@
-import React from 'react';
-import { StyleSheet, Button, View, SafeAreaView, Text, Alert } from 'react-native';
-import Constants from 'expo-constants';
-
-function Separator() {
-  return <View style={styles.separator} />;
 }
 
 export default function App() {
